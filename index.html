@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alphayo ken</title>
+    <link rel="stylesheet" href="src/css/main.css">
+    <link rel="stylesheet" href="src/css/plane.css">
+    <script defer src="src/js/main.js"></script>
+    <script defer src="/src/js/mixitup.min.js"></script>
+
+</head>
+<body>
+    <nav class="nav_container" id="header">
+
+        <a href="#" class="nav_logo">Alphayo Ken</a>
+
+        <ul class="navbar nav_menu" id="nav_menu">
+            <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+            <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+            <li class="nav_item"><a href="#skills" class="nav_link">My Skills</a></li>
+            <li class="nav_item"><a href="#my_work" class="nav_link">My Work</a></li>
+            <li class="nav_item"><a href="#blog" class="nav_link">Blog</a></li>
+            <li class="nav_item"><a href="#contact" class="nav_link">Contact Me</a></li>
+        </ul>
+
+        <div class="nav_toggle" id="nav_toggle">
+            <img src="src/img/align-justify.png"class="icons" alt="" >
+        </div>
+    </nav>
+
+    <section class="home" id="home">
+        <div class="home_data">
+            <div class="home_line"></div>
+            <div class="home_details">
+                <p class="greet">hello,</p>
+                <p class="name">i'm alphayo</p>
+                <p class="description">Professional fullstack <br> & blockchain developer</p>
+                <button class="btn" id="cv">Download CV</button>
+            </div>
+            
+        </div>
+        <!-- <div class="section1">
+            <div class="clouds">
+                <img src="/src/img/cloud1.png" alt="" style="--i:1;">
+                <img src="/src/img/cloud1.png" alt="" style="--i:2;">
+                <img src="/src/img/cloud1.png" alt="" style="--i:3;">
+            </div>
+            <div class="clouds clouds2">
+                <img src="/src/img/cloud1.png" alt="" style="--i:1;">
+                <img src="/src/img/cloud1.png" alt="" style="--i:2;">
+                <img src="/src/img/cloud1.png" alt="" style="--i:3;">
+            </div>
+            <div class="runway"></div>
+            <img src="/src/img/airplane.png" alt="" class="plane">
+        </div> -->
+        
+    </section>
+    <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+        
+        <div class="about_content">  
+            
+            <div class="experience">
+                <div class="about_greet1">
+                    <p class="about_greet">Hello, i am</p>
+                    <p class="about_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum modi asperiores, quaerat veritatis dolores doloribus cum earum deleniti, nobis recusandae, placeat temporibus minima nostrum saepe vero. Eius, necessitatibus. Earum, impedit.</p>
+                </div>
+                <div class="item">
+                    <div class="number number1">03</div>
+                    <p class="desc">Years of experience</p>
+                </div>
+                <div class="item">
+                    <div class="number">10+</div>
+                    <p class="desc">Projects completed</p>
+                </div>
+            </div>
+            <img src="/src/img/home.jpg" alt=""  class="about_img">
+
+        </div>
+
+    </section>
+    <section class="skills" id="skills">
+
+    </section>
+    <section class="my_work" id="my_work">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio_nav" id="portfolio_nav">
+            <div class="portfolio_nav_item" id="frontend" data-filter=".frontend">frontend</div>
+            <div class="portfolio_nav_item" id="backend" data-filter=".backend">backend</div>
+            <div class="portfolio_nav_item" id="blockchain" data-filter=".blockchain">blockchain</div>
+            <div class="portfolio_nav_item" id="ui/ux" data-filter=".ui/ux">ui/ux</div>
+        </div>
+        <div class="portfolio_items">
+            <div class="portfolio_item mix frontend">
+                <img src="src/img/pro.webp" alt="" class="portfolio_item_img">
+                <div class="portfolio_item_data">
+                    <h3 class="portfolio_item_tag">frontend</h3>
+                    <h2 class="portfolio_item_desc">New portfoliofor work donefor client</h2>
+                    <a href="" class="portfolio_item_link">view details</a>
+                    <a href="" class="portfolio_item_live">live</a>
+                </div>    
+            </div>
+            
+            <div class="portfolio_item mix frontend">
+                <img src="/src/img/pro.webp" alt="" class="portfolio_item_img">
+                <div class="portfolio_item_data">
+                    <h3 class="portfolio_item_tag">frontend</h3>
+                    <h2 class="portfolio_item_desc">New portfoliofor work donefor client</h2>
+                    <a href="" class="portfolio_item_link">view details</a>
+                    <a href="" class="portfolio_item_live">live</a>
+                </div>    
+            </div>
+
+            <div class="portfolio_item mix backend">
+                <img src="/src/img/pro.webp" alt="" class="portfolio_item_img">
+                <div class="portfolio_item_data">
+                    <h3 class="portfolio_item_tag">frontend</h3>
+                    <h2 class="portfolio_item_desc">New portfoliofor work donefor client</h2>
+                    <a href="" class="portfolio_item_link">view details</a>
+                    <a href="" class="portfolio_item_live">live</a>
+                </div>    
+            </div>
+
+            <div class="portfolio_item mix backend">
+                <img src="/src/img/pro.webp" alt="" class="portfolio_item_img">
+                <div class="portfolio_item_data">
+                    <h3 class="portfolio_item_tag">frontend</h3>
+                    <h2 class="portfolio_item_desc">New portfoliofor work donefor client</h2>
+                    <a href="" class="portfolio_item_link">view details</a>
+                    <a href="" class="portfolio_item_live">live</a>
+                </div>    
+            </div>
+
+            <div class="portfolio_item mix blockchain">
+                <img src="/src/img/pro.webp" alt="" class="portfolio_item_img">
+                <div class="portfolio_item_data">
+                    <h3 class="portfolio_item_tag">frontend</h3>
+                    <h2 class="portfolio_item_desc">New portfoliofor work donefor client</h2>
+                    <a href="" class="portfolio_item_link">view details</a>
+                    <a href="" class="portfolio_item_live">live</a>
+                </div>    
+            </div>
+
+            <div class="portfolio_item mix ui/ux">
+                <img src="/src/img/pro.webp" alt="" class="portfolio_item_img">
+                <div class="portfolio_item_data">
+                    <h3 class="portfolio_item_tag">frontend</h3>
+                    <h2 class="portfolio_item_desc">New portfoliofor work donefor client</h2>
+                    <a href="" class="portfolio_item_link">view details</a>
+                    <a href="" class="portfolio_item_live">live</a>
+                </div>    
+            </div>
+
+
+            
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+        <div class="contact_container">
+            <div class="contact_content">
+                <div class="contact_box">
+                    <img src="/src/img/align-justify.png" alt="" class="icons">
+                    <h3 class="contact_title">Phone</h3>
+                    <span class="contact_description">999-888-777</span>               
+                </div>
+
+                <div class="contact_box">
+                    <img src="/src/img/align-justify.png" alt="" class="icons">
+                    <h3 class="contact_title">Location</h3>
+                    <span class="contact_description">#123 Lima -peru</span>               
+                </div>
+
+                <div class="contact_box">
+                    <img src="/src/img/align-justify.png" alt="" class="icons">
+                    <h3 class="contact_title">Email</h3>
+                    <span class="contact_description">clayuser@gmail.com</span>               
+                </div>
+
+                <div class="contact_box">
+                    <img src="/src/img/align-justify.png" alt="" class="icons">
+                    <h3 class="contact_title">Chat</h3>
+                    <div>
+                        <a href="" class="contact_social"><img src="/src/img/align-justify.png" class="icons" alt=""></a>
+                        <a href="" class="contact_social"><img src="/src/img/align-justify.png" class="icons" alt=""></a>
+                        <a href="" class="contact_social"><img src="/src/img/align-justify.png" class="icons" alt=""></a>
+
+                    </div>               
+                </div>
+            </div>
+
+            <form action="" class="contact_forms">
+                <div class="contact_inputs">
+                    <input type="text" placeholder="Name" class="contact_form">
+                    <input type="email" placeholder="Email" class="contact_form">
+                </div>
+
+                <div class="contact_inputs">
+                    <input type="text" placeholder="Project" class="contact_form">
+                    <input type="number" placeholder="Number" class="contact_form">
+                </div>
+
+                <textarea name="" id="" cols="0" rows="7" placeholder="Message" class="contact_info"></textarea>
+
+                <input type="submit" value="Send Message" class="btn contact_button">
+            </form>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="footer_container">
+            <h1 class="footer_title">Alphayo Ken</h1>
+            <p class="footer_description">I am alphayo ken and this is my personal website, consoult me here</p>
+
+            <div class="footer_social">
+                <a href="" class="footer_link"><img src="/src/img/align-justify.png" alt="" class="icons"></a>
+                <a href="" class="footer_link"><img src="/src/img/align-justify.png" alt="" class="icons"></a>
+                <a href="" class="footer_link"><img src="/src/img/align-justify.png" alt="" class="icons"></a>
+            </div>
+            <p class="footer_copy">&#169; 2021 Alphayo. All rights reserved</p>
+        </div>
+    </footer>
+</body>
+</html>
