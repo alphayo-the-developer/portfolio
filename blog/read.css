@@ -1,0 +1,293 @@
+/* VARIABLE CSS */
+:root {
+    --header-height: 3rem;
+
+    /* font weight */
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+    /* colors */
+    --dark-color: #2c2c2c;
+    --dark-color-light: #313131;
+    --yellow-color: #fdb733;
+    --white-color: #fff;
+
+    /* font and typography */
+    --body-font: 'Poppins', sans-serif;
+    --big-font-size: 1.25rem;
+    --bigger-font-size: 1.5rem;
+    --biggest-font-size: 2rem;
+    --h2-font-size: 1.25rem;
+    --normal-font-size: .938rem;
+    --smaller-font-size: .813rem;
+
+    /* margins */
+    --mb-1: .5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+   
+}
+
+@media screen and (min-width: 768px){
+    :root{
+        --big-font-size: 1.5rem;
+        --bigger-font-size: 2rem;
+        --biggest-font-size: 3rem;
+        --normal-font-size: 1rem;
+        --smaller-font-size: .875rem;
+    }
+}
+
+/* base */
+*,::before,::after{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+.main_containner {
+    margin-top: 80px;
+}
+
+/* heading */
+
+.heading {
+    border-radius: 35%;
+}
+
+.heading .read_thumbnail{
+    width: 100%;
+    border-radius: 10%;
+}
+
+.title {
+    font-size: 1.5rem;
+}
+
+
+/* op */
+
+.op {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.op_detail {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.op_title {
+
+}
+
+.share {
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.op_thumbnail {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.share_icons {
+    width: 20px;
+}
+
+/* content */
+
+.content {
+    margin-top: 10px;
+}
+
+.content p{
+    margin-top: 10px;
+}
+
+/* author */
+
+.author_detail {
+    width: 70%;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    column-gap: 10px;
+}
+
+.author_thumnnail {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.author_name img {
+    width: 10px;
+}
+
+.author_name {
+    font-size: 1.2rem;
+}
+
+.author_name_icon {
+    margin-left: 5px;
+}
+
+.posted_date {
+    font-size: .8rem;
+}
+
+.author_reaction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.author_icons img{
+    width: 30px;
+}
+
+.author_reaction .likes {
+  width: 45%;
+  display: flex;
+  justify-content: space-between;  
+}
+
+/* comment */
+
+.comments_section {
+
+}
+
+.add_comment {
+    display: flex;
+}
+
+.add_comment form {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.comment_input {
+    background: transparent;
+    border: 2px solid var(--yellow-color);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.comment_post_btn {
+    /* border-radius: 30px; */
+    padding: 5px;
+        
+    display: inline-block;
+    background-color: var(--dark-color);
+    color: var(--yellow-color);
+    border: 1px solid var(--yellow-color);
+    font-weight: var(--font-medium);
+    border-radius: .5rem;
+    transition: .3s;
+    cursor: pointer;  
+}
+
+.comment_pic {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.comment {
+    position: relative;
+}
+
+.main_comment_replies {
+    display: none;
+    position: absolute;
+    left: 70px;
+}
+
+.show {
+    display: block;
+}
+
+.main_comment_reply {
+    display: flex;
+    margin-top: 20px;
+}
+
+
+.comment_section {
+    margin-top: 30px;
+}
+
+.main_comment {
+    display: flex;
+}
+
+.commenter_thumbnail {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+}
+
+.comment_details {
+    margin-left: 20px;
+}
+
+.actual_comment {
+
+}
+
+.actual_comment .user_name{
+    font-weight: bold;
+    color: var(--yellow-color);
+    margin-right: 2px;
+}
+
+.comment_interaction {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.main_comment .comment_interaction {
+    width: 70%;
+}
+
+.main_comment_reply .comment_interaction{
+    width: 80%;
+}
+
+.comment_interaction button {
+    outline: none;
+    background: none;
+    border: none;
+    color: var(--white-color);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.comment_interaction p{
+    
+} 
+
+.show_replies {
+    outline: none;
+    background: none;
+    border: none;
+    color: rgb(197, 197, 55);
+    cursor: pointer;
+    text-transform: capitalize;
+    margin-top: 10px;
+}
+

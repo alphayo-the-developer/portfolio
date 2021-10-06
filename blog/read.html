@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" href="../public/src/css/main.css">
+    <link rel="stylesheet" href="../blog/blogmain.css">
+    <link rel="stylesheet" href="../blog/read.css">
+    <script defer src="./js/main.js"></script>
+    <script defer src="./js/blog.js"></script>
+    <script defer src="../src/js/mixitup.min.js"></script>
+</head>
+<body>
+    <nav class="nav_container" id="header">
+
+        <a href="#" class="nav_logo">Alphayo Ken</a>
+
+        <ul class="navbar nav_menu" id="nav_menu">
+            <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+            <li class="nav_item"><a href="#about" class="nav_link">About</a></li>
+            <li class="nav_item"><a href="#skills" class="nav_link">My Skills</a></li>
+            <li class="nav_item"><a href="#my_work" class="nav_link">My Work</a></li>
+            <li class="nav_item"><a href="#blog" class="nav_link">Blog</a></li>
+            <li class="nav_item"><a href="#contact" class="nav_link">Contact Me</a></li>
+        </ul>
+
+        <div class="nav_toggle" id="nav_toggle">
+            <img src="/blog/img/align-justify.png"class="icons" alt="" >
+        </div>
+    </nav>
+
+    <div class="main_containner">
+        <div class="heading">
+            <img src="/blog/img/thumbnail1.jpg" alt="" class="read_thumbnail">
+            <p class="title">Lorem ipsum dolor sit amet consectetur</p>
+            <div class="op">
+                <div class="op_detail">
+                    <img src="img/thumbnail2.jpg" alt="" class="op_thumbnail">
+                    <p class="op_title">alphayo ken</p>
+                </div>
+                <div class="share">
+                    <img src="img/filter.png" alt="" class="share_icons">
+                    <img src="img/filter.png" alt="" class="share_icons">
+                    <img src="img/filter.png" alt="" class="share_icons">
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum at facilis aperiam blanditiis inventore? Quo nam porro quam, dolor maxime atque, quas non voluptates voluptate, iure error ea labore! Deleniti?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum at facilis aperiam blanditiis inventore? Quo nam porro quam, dolor maxime atque, quas non voluptates voluptate, iure error ea labore! Deleniti?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum at facilis aperiam blanditiis inventore? Quo nam porro quam, dolor maxime atque, quas non voluptates voluptate, iure error ea labore! Deleniti?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum at facilis aperiam blanditiis inventore? Quo nam porro quam, dolor maxime atque, quas non voluptates voluptate, iure error ea labore! Deleniti?</p>
+        </div>
+        <div class="author">
+            <div class="author_detail">
+                <img src="/blog/img/thumbnail2.jpg" alt="" class="author_thumnnail">
+                <div class="author_info">
+                    <p class="author_name">Lorem ipsum dolor <img src="/blog/img/filter.png" alt="" class="author_name_icon"></p>
+                    <p class="posted_date">Published 3 days ago</p>
+                </div>
+            </div>
+            <div class="author_reaction">
+                <div class="author_icons">
+                    <img src="/blog/img/thumbnail1.jpg" alt="">
+                    <img src="/blog/img/thumbnail1.jpg" alt="">
+                    <img src="/blog/img/thumbnail1.jpg" alt="">
+                    <img src="/blog/img/thumbnail1.jpg" alt="">
+                </div>
+                <div class="likes">
+                    <p class="likes">273 likes</p>
+                    <p class="views">3.5k views</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="comments_section">
+            <div class="add_comment">
+                <img src="/blog/img/thumbnail1.jpg" alt="" class="comment_pic">
+                <form action="" method="POST">
+                    <input type="text" class="comment_input">
+                    <input type="submit" class="comment_post_btn" value="POST" >
+                </form>
+            </div>
+            <div class="comment_section">
+                <div class="comment">
+                    <div class="main_comment">
+                        <img src="/blog/img/thumbnail1.jpg" alt="" class="commenter_thumbnail">
+                        <div class="comment_details">
+                            <p class="actual_comment"><span class="user_name">Lorem, ipsum dolor</span> ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusamus minus doloribus ex asperiores tempore.</p>
+                            <div class="comment_interaction">
+                                <button class="like">like</button>
+                                <button class="reply">reply</button>
+                                <p class="time">3 min</p>
+                                <p class="likes">3 likes</p>
+                            </div>
+                            <button class="show_replies" id="show_replies">View Replies</button>
+                        </div>
+                    </div>
+                    <div class="main_comment_replies" id="main_comment_replies">
+                        <div class="main_comment_reply">
+                            <img src="/blog/img/thumbnail1.jpg" alt="" class="commenter_thumbnail">
+                            <div class="comment_details">
+                                <p class="actual_comment"><span class="user_name">Lorem, ipsum dolor</span> ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusamus minus doloribus ex asperiores tempore.</p>
+                                <div class="comment_interaction">
+                                    <button class="like">like</button>
+                                    <button class="reply">reply</button>
+                                    <p class="time">3 min</p>
+                                    <p class="likes">3 likes</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="main_comment_reply">
+                            <img src="/blog/img/thumbnail1.jpg" alt="" class="commenter_thumbnail">
+                            <div class="comment_details">
+                                <p class="actual_comment"><span class="user_name">Lorem, ipsum dolor</span> ipsum dolor sit amet, consectetur adipisicing elit. Nulla accusamus minus doloribus ex asperiores tempore.</p>
+                                <div class="comment_interaction">
+                                    <button class="like">like</button>
+                                    <button class="reply">reply</button>
+                                    <p class="time">3 min</p>
+                                    <p class="likes">3 likes</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
