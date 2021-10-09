@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
 /* VARIABLE CSS */
 :root {
     --header-height: 3rem;
@@ -14,7 +16,7 @@
     --white-color: #fff;
 
     /* font and typography */
-    --body-font: 'Poppins', sans-serif;
+    --body-font: 'Roboto','Poppins', sans-serif;
     --big-font-size: 1.25rem;
     --bigger-font-size: 1.5rem;
     --biggest-font-size: 2rem;
@@ -332,6 +334,38 @@ a{
     /* transform: translateX(40px); */
 }
 
+/* SKILLS */
+
+.skills {
+    margin-top: var(--mb-6);
+}
+
+.skills_contents {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.skill_content {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--dark-color-light);
+    box-shadow: 0 4px 6px rgba(174, 190, 205, .3);   
+    padding: 10px; 
+}
+
+.skill_content p{
+
+}
+
+.skill_content img{
+    width: 30px;
+}
+
+
+/* END SKILLS */
+
 /* PORTFOLIO */
 .my_work {
     margin-top: var(--mb-6);
@@ -540,6 +574,7 @@ a{
         margin-left: var(--mb-4);
         z-index: -10000;
     }
+    
     .home_background {
         display: block;
         background-color: var(--yellow-color);
@@ -592,6 +627,11 @@ a{
         margin-left: var(--mb-2);
         margin-top: var(--mb-4);
     }
+    .skills_contents {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
 }
 
 @media screen and (min-width: 768px){
@@ -631,6 +671,9 @@ a{
     .contact{
         margin-right: 20px;
     }
+    #nav_menu:nth-child(6) {
+        margin-right: 20px;
+    }
     .portfolio_item{
         /* height: 57vh; */
     }
@@ -650,6 +693,11 @@ a{
         padding: 10px;
         background-color: var(--dark-color-light);
     } */
+    .skills_contents {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+    }
 }
 
 @media screen and (min-width: 1024px){
